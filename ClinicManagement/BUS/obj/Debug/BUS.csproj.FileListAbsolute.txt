@@ -1,0 +1,11 @@
+D:\đồ án 1\ClinicManagement\BUS\bin\Debug\BUS.dll
+D:\đồ án 1\ClinicManagement\BUS\bin\Debug\BUS.pdb
+D:\đồ án 1\ClinicManagement\BUS\bin\Debug\DAL.dll
+D:\đồ án 1\ClinicManagement\BUS\bin\Debug\DTO.dll
+D:\đồ án 1\ClinicManagement\BUS\bin\Debug\DAL.pdb
+D:\đồ án 1\ClinicManagement\BUS\bin\Debug\DTO.pdb
+D:\đồ án 1\ClinicManagement\BUS\obj\Debug\BUS.csproj.AssemblyReference.cache
+D:\đồ án 1\ClinicManagement\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+D:\đồ án 1\ClinicManagement\BUS\obj\Debug\BUS.csproj.CopyComplete
+D:\đồ án 1\ClinicManagement\BUS\obj\Debug\BUS.dll
+D:\đồ án 1\ClinicManagement\BUS\obj\Debug\BUS.pdb

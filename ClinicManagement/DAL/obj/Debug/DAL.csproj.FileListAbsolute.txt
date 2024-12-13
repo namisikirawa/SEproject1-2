@@ -1,0 +1,9 @@
+D:\đồ án 1\ClinicManagement\DAL\bin\Debug\DAL.dll
+D:\đồ án 1\ClinicManagement\DAL\bin\Debug\DAL.pdb
+D:\đồ án 1\ClinicManagement\DAL\bin\Debug\DTO.dll
+D:\đồ án 1\ClinicManagement\DAL\bin\Debug\DTO.pdb
+D:\đồ án 1\ClinicManagement\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+D:\đồ án 1\ClinicManagement\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\đồ án 1\ClinicManagement\DAL\obj\Debug\DAL.csproj.CopyComplete
+D:\đồ án 1\ClinicManagement\DAL\obj\Debug\DAL.dll
+D:\đồ án 1\ClinicManagement\DAL\obj\Debug\DAL.pdb

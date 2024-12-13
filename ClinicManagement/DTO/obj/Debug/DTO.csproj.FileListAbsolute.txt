@@ -1,0 +1,6 @@
+D:\đồ án 1\ClinicManagement\DTO\bin\Debug\DTO.dll
+D:\đồ án 1\ClinicManagement\DTO\bin\Debug\DTO.pdb
+D:\đồ án 1\ClinicManagement\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+D:\đồ án 1\ClinicManagement\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+D:\đồ án 1\ClinicManagement\DTO\obj\Debug\DTO.dll
+D:\đồ án 1\ClinicManagement\DTO\obj\Debug\DTO.pdb

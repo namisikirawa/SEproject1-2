@@ -1,0 +1,301 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7A39FA2E-15D6-4AE4-AFD1-641EE155B1C8}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>GUI</RootNamespace>
+    <AssemblyName>GUI</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AccountManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AccountManagement.Designer.cs">
+      <DependentUpon>AccountManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EmployeeManagemenet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmployeeManagemenet.Designer.cs">
+      <DependentUpon>EmployeeManagemenet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Add_Employee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add_Employee.Designer.cs">
+      <DependentUpon>Add_Employee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ClinicManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClinicManagement.Designer.cs">
+      <DependentUpon>ClinicManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Add_Supplies.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add_Supplies.Designer.cs">
+      <DependentUpon>Add_Supplies.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Add_Report.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add_Report.Designer.cs">
+      <DependentUpon>Add_Report.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Patient_Details.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Patient_Details.Designer.cs">
+      <DependentUpon>Patient_Details.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Update_Clinic.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Update_Clinic.Designer.cs">
+      <DependentUpon>Update_Clinic.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PatientManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PatientManagement.Designer.cs">
+      <DependentUpon>PatientManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Add_Patient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add_Patient.Designer.cs">
+      <DependentUpon>Add_Patient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report.Designer.cs">
+      <DependentUpon>Report.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SuppliesManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SuppliesManagement.Designer.cs">
+      <DependentUpon>SuppliesManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu.Designer.cs">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AccountManagement.resx">
+      <DependentUpon>AccountManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Add_Employee.resx">
+      <DependentUpon>Add_Employee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Add_Patient.resx">
+      <DependentUpon>Add_Patient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Add_Supplies.resx">
+      <DependentUpon>Add_Supplies.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmployeeManagemenet.resx">
+      <DependentUpon>EmployeeManagemenet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClinicManagement.resx">
+      <DependentUpon>ClinicManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PatientManagement.resx">
+      <DependentUpon>PatientManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu.resx">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Patient_Details.resx">
+      <DependentUpon>Patient_Details.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Report.resx">
+      <DependentUpon>Report.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SuppliesManagement.resx">
+      <DependentUpon>SuppliesManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Update_Clinic.resx">
+      <DependentUpon>Update_Clinic.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BUS\BUS.csproj">
+      <Project>{ece608ce-3962-4bcd-839a-e7fc81529cba}</Project>
+      <Name>BUS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DAL\DAL.csproj">
+      <Project>{ec659aa3-f1b3-4bc3-a5e3-f648b585a94f}</Project>
+      <Name>DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DTO\DTO.csproj">
+      <Project>{c0b7414d-fd7a-4a2d-b074-42a14ac1c3b4}</Project>
+      <Name>DTO</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\295128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hamburger-menu-filled-icon-in-transparent-background-basic-app-and-web-ui-bold-line-icon-eps10-free-vector.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2951281.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %284%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %284%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %282%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hospital-building-icon-6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add-icon-free-vector.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\png-clipart-green-check-illustration-check-mark-computer-icons-ok-symbol-miscellaneous-angle-thumbnail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\14669067.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\16697253.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7031048.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\912267.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3140365.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3557325.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\call-report-icon-3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8748504.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %285%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngtree-vector-add-user-icon-png-image_4101420.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add-icon-free-vector1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh-149.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh-1491.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\87485041.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %286%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %286%291.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
